@@ -12,6 +12,7 @@
     #define getcwd _getcwd
     #define SHARED_NAME ".dll"
     #define LINK_RULES ""
+    #define EXE_RULES ""
 #else
     #include <unistd.h>   
     #include <sys/stat.h> 
